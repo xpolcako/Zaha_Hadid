@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Felix Titling";
+  src: url("../fonts/FelixTitlingMT.eot");
+  src: url("../fonts/FelixTitlingMT.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/FelixTitlingMT.woff2") format("woff2"),
+    url("../fonts/FelixTitlingMT.woff") format("woff");
+}
+
+* {
+  font-family: "Felix Titling", "Times New Roman", serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+html,
+body {
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  background-image: url("../img/Pozadí.jpg");
+  background-size: cover;
+}
+
+img {
+  width: 90%;
+  height: auto;
+}
+footer {
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+}
+
+h1 {
+  text-align: left;
+  margin-left: 25vw;
+  margin-bottom: 4vh;
+  letter-spacing: 0.2vw;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+    margin-left: 0;
+  }
+  img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-top: 0;
+  }
+
+  h2 {
+    font-size: 3vw;
+  }
+}

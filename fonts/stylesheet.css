@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Felix Titling';
+    src: url('FelixTitlingMT.eot');
+    src: url('FelixTitlingMT.eot?#iefix') format('embedded-opentype'),
+        url('FelixTitlingMT.woff2') format('woff2'),
+        url('FelixTitlingMT.woff') format('woff');
+}
+

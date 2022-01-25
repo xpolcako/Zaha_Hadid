@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Felix Titling";
+  src: url("../fonts/FelixTitlingMT.eot");
+  src: url("../fonts/FelixTitlingMT.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/FelixTitlingMT.woff2") format("woff2"),
+    url("../fonts/FelixTitlingMT.woff") format("woff");
+}
+
+* {
+  font-family: "Felix Titling", "Times New Roman", serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+html,
+body {
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  background-image: url("../img/Pozadí.jpg");
+  background-size: cover;
+}
+
+/* Obsah */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 3vh;
+}
+
+img {
+  width: 90%;
+  height: auto;
+}
+
+img.dva {
+  padding-top: 3vh;
+}
+
+img.ctyri {
+  padding-top: 3vh;
+}
+
+img.pet {
+  padding-top: 2vh;
+}
+
+img.sedm {
+  padding-top: 3vh;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+}
+
+/* Contact */
+
+.container-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5vh;
+  margin-bottom: 3vw;
+}
+
+.adress {
+  list-style: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2vw;
+  margin-top: 8vh;
+  margin-right: 5vh;
+}
+
+.mapa {
+  width: 40vw;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 6vh;
+  letter-spacing: 0.3vw;
+}

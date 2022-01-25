@@ -1,0 +1,141 @@
+@media only screen and (max-width: 600px) {
+  /* Logo */
+  .logo {
+    font-size: 3vh;
+  }
+  .zaha {
+    float: left;
+    width: 50%;
+    height: 10vh;
+    padding-top: 2.7vh;
+    margin-left: 15vw;
+  }
+
+  /* show, hide menu*/
+  #hamitems {
+    display: none;
+  }
+  #hamnav input:checked ~ #hamitems {
+    display: block;
+  }
+
+  /* vertikalni menu */
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 2vh;
+    font-size: 3.5vw;
+  }
+
+  #hamnav label {
+    display: inline-block;
+    color: black;
+    font-style: normal;
+    font-size: 4vh;
+    width: 30%;
+    height: 10vh;
+    margin-right: 3vw;
+    padding-top: 2vh;
+  }
+
+  /* Cary */
+
+  .cara-top {
+    margin-top: 0;
+  }
+
+  /* Obsah */
+
+  .container {
+    gap: 3vw;
+  }
+
+  .bck {
+    display: none;
+  }
+
+  .bck_dva {
+    display: none;
+  }
+
+  .bck_tri {
+    display: none;
+  }
+
+  .bck_ctyri {
+    display: none;
+  }
+
+  .bck_pet {
+    display: none;
+  }
+
+  .item {
+    width: 70%;
+  }
+
+  img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-top: 0;
+  }
+
+  img.dva {
+    padding-top: 0;
+  }
+
+  img.pet {
+    height: 100%;
+    width: 100%;
+    padding-top: 0;
+  }
+  img.ctyri {
+    padding-top: 0;
+  }
+
+  img.sedm {
+    padding-top: 0;
+  }
+
+  .footer__list {
+    font-size: 2.8vw;
+  }
+
+  /* Contact */
+
+  .container-contact {
+    gap: 2vw;
+  }
+
+  .mapa {
+    margin-bottom: 5vh;
+  }
+
+  li.ad.five {
+    margin-bottom: 0;
+  }
+
+  ul.adress {
+    margin-top: 0;
+    font-size: 3.5vw;
+  }
+
+  label {
+    font-size: 3vw;
+  }
+
+  h1 {
+    font-size: 4vw;
+  }
+
+  .flex-outer li button {
+    padding: 1vh 1.5vw;
+    font-size: 2.5vw;
+  }
+
+  h2 {
+    font-size: 3vw;
+  }
+}
